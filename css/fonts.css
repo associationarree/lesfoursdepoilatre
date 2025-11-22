@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Adelphe Trouble';
+    src: url('/fonts/Adelphe-Trouble-FlorealRegular.woff') format('woff'),
+         url('/fonts/Adelphe-Trouble-FlorealRegular.woff2') format('woff2'),
+         url('/fonts/Adelphe-Trouble-FlorealRegular.ttf') format('truetype');
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Adelphe';
+    src: url('/fonts/Adelphe-FlorealRegular.woff') format('woff'),
+         url('/fonts/Adelphe-FlorealRegular.woff2') format('woff2'),
+         url('/fonts/Adelphe-FlorealRegular.ttf') format('truetype');
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'UnormativeFraktur';
+    src: url('/fonts/UnormativeFraktur.woff') format('woff'),
+         url('/fonts/UnormativeFraktur.woff2') format('woff2'),
+         url('/fonts/UnormativeFraktur.ttf') format('truetype');
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    font-family: "Adelphe Trouble", sans-serif;
+}
+
+h1 {
+    font-family: 'UnormativeFraktur', sans-serif;
+    font-size: 80px;
+}
+p {
+    font-family: "Adelphe Trouble", sans-serif;
+}
+
+h4 {
+    font-family: "Adelphe", sans-serif;
+}
+
+a:hover {
+	filter:blur(1px);
+	color: rgb(255, 0, 0);
+}
